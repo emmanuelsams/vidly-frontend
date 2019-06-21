@@ -1,0 +1,153 @@
+
+
+ul.topnav { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkred;
+  opacity: 0.9;
+  
+  text-align: center;
+}
+
+ul.topnav li {
+  float: left;
+  }
+
+.links {
+  padding-top: 16px;
+}
+.cour {
+  padding-left: 210px;
+  padding-top: 16px;
+}
+.nav-logo {
+  padding-left: 190px;
+  width: 5px;
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.fas {
+  padding-right: 10px;
+}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: opacity 2s ease,transform 2s ease;
+}
+
+ul.topnav li a:hover {
+  transform:scale(1.2)
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.right img {
+  width: 815px;
+  height: 630px;
+}
+.left h2{
+  padding-top: 200px;
+}
+
+.top-wrapper {
+  background: url(images/deliver-man-1.jpg)center/cover
+  fixed no-repeat;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h2 {
+  font-size: 30px;
+  text-align: left;
+  font: bold;
+  letter-spacing: 3px;
+}
+
+.top-wrapper p {
+  text-align: left;
+  opacity: 0.8
+}
+.top-wrapper small {
+  color: yellow;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.top-wrapper img {
+  float: left;
+  }
+
+
+/*Styling for the section */
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-2 div{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.container-2 img {
+  width: 90px;
+  height: 60px;
+}
+h3 {
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 7px;
+  color: grey;
+}
+
+
+
+    /*Styling for responsiveness */
+
+    /*Navigation bar styling for mobile screen */
+@media screen and (max-width: 700px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  .nav-logo {
+    display: none;
+  }
+}
+    /*Responsive styling.. */
+    @media (max-width: 600px) {
+      .row {
+       
+      }
+      
+  .left {
+   
+    
+  }
+  .right {
+    
+    
+  }
+  .right img{
+
+  }
+  .container-2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-2 div{
+    
+    
+  }
+  .container-2 img {
+    
+  }
+
+}
